@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-navbar-menu {
+  display: flex;
+  width: 30vw;
+}
+
+
+.links {
+  transition: all .3s;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.links:hover {
+  background-color: #057ce1;
+  color: #fff;
+}
+
+.whatsapp_logo {
+  padding: 2px;
+  border-radius: 100%;
+  transition: all .3s;
+}
+
+.wpp-logo-container:hover .whatsapp_logo {
+  color: #00bb2d;
+}
+
+
+/* PARALLAX */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-image:url("./assets//img/bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 600px;
+  padding: 0 10%;
+  transition: 0.s linear;
+}
